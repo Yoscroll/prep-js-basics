@@ -9,8 +9,9 @@
 *
 * It should be a String.
 **/
-
-
+var firstName = "Ian";
+var lastName = "Acosta";
+var birthPlace = "Philippines";
 
 /**
 * #2
@@ -22,7 +23,9 @@
 * Their values should be a Number
 **/
 
-
+var favoriteNumber = "7";
+var currentYear = "2016";
+var thatOnePrinceSong = "1999";
 
 /**
 * #3
@@ -33,7 +36,9 @@
 *
 * Their values should be a Boolean
 **/
-
+var isDaytime = true;
+var isLeftHanded = false;
+var inHawaii = true;
 
 
 /**
@@ -44,7 +49,8 @@
 *
 * Their values should be a Null value
 **/
-
+var enrolledAtDevLeague;
+var completedFridayPrep;
 
 
 /**
@@ -55,7 +61,7 @@
 * This Array contains the names of all the states
 * which can be found along the west coast of The United States.
 **/
-
+var westCoast = ["Hawaii","California","Oregon","Washington","Nevada","Alaska"];
 
 
 /**
@@ -66,7 +72,7 @@
 * This Array contains numbers that are considered 'even values'.
 * Have at least ten even values in this array.
 **/
-
+var evenNumbers = [2,4,6,8,10,12,14,16,18,20];
 
 
 /**
@@ -79,7 +85,8 @@
 *
 * Extend this behavior to include subtraction, multiplication and division.
 */
-
+var sumOfNumbers;
+sumOfNumbers = 1+2+3;
 
 
 
@@ -98,7 +105,14 @@
 *   See if you can come up with a few examples of double comparison
 *   operator(==) vs triple comparison operator(===).
 */
+var isEqual= "Tacocat"=="tacocat";
 
+
+// BONUS
+//(==) compares values
+//(===) compares value types
+1==1 //true
+1==="1"//false
 
 
 /**
@@ -116,7 +130,7 @@
 *   it can only test that you declared the variable by giving it the right name.
 */
 
-
+var generalContainer;
 
 
 /**
