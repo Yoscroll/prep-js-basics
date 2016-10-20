@@ -111,8 +111,8 @@ var isEqual= "Tacocat"=="tacocat";
 // BONUS
 //(==) compares values
 //(===) compares value types
-1==1 //true
-1==="1"//false
+1==1 //true because the value 1 is equal to ther other value, which is also 1
+1==="1"//false because an int is not a string
 
 
 /**
@@ -131,6 +131,11 @@ var isEqual= "Tacocat"=="tacocat";
 */
 
 var generalContainer;
+generalContainer = "hiiii";
+generalContainer = false;
+generalContainer = 13;
+generalContainer = ["1","2"];
+generalContainer = [1,2,3];
 
 
 /**
@@ -145,8 +150,13 @@ var generalContainer;
 * Store the return value to a variable named `jumpResult`
 **/
 
+function jump(height){
+	var jumpResult
+	jumpResult = "You jumped "+height+" feet high!";
+	return jumpResult;
+}
 
-
+jump(9);
 /**
 * #7b
 * Declare Functions
@@ -157,3 +167,7 @@ var generalContainer;
 * if invoked in this way -> cook("Tomatoes", "Cheese", "Pizza");
 **/
 
+function cook(ingredient1,ingredient2,recipeName){
+	return ingredient1+ " and "+ingredient2+ " make a " + recipeName+"!";
+}
+cook("Spam","Rice","Carrot Cake");
